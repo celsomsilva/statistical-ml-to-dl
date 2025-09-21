@@ -1,0 +1,68 @@
+# ==========================
+# System files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Python cache and build files
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ==========================
+# R temporary files
+# ==========================
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+*.Rproj
+
+# ==========================
+# Jupyter and logs
+# ==========================
+.ipynb_checkpoints/
+*.log
+*.out
+*.aux
+
+# ==========================
+# Data files (ignore raw or heavy data)
+# ==========================
+data/raw/
+*.csv
+*.xlsx
+*.sav
+*.sas7bdat
+
+# ==========================
+# Model training outputs
+# ==========================
+models/
+checkpoints/
+*.h5
+*.pt
+*.pth
+
+# ==========================
+# IDE configuration
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# Generated outputs (figures, reports)
+# ==========================
+figs/
+outputs/
+
